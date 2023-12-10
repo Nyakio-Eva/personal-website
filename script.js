@@ -5,4 +5,9 @@ document.addEventListener('DOMContentLoaded', function (){
     welcomeSection.addEventListener('mouseover',function (){
         this.style.color = getRandomColor();
     });
+    // change color back on mouseout
+    welcomeSection.addEventListener('mouseout',function(){
+        this.style.color = '';
+    });
+    
 })
