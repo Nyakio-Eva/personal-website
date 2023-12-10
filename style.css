@@ -35,3 +35,8 @@ nav a{
     color: #333;
     font-weight: bold;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
