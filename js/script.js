@@ -1,12 +1,9 @@
-// function to change the color on mouseover
-function changeColorToGreen(linkId){
-    link = document.getElementById(linkId);
-    link.addEventListener('mouseover', function(){
-        link.style.color = 'green';
-    });
-
+// function to change the color onclick
+function doChange(){
+    alert('home button');
 }
-changeColorToGreen('home-link');
-changeColorToGreen('about-link');
-changeColorToGreen('interests-link');
-changeColorToGreen('contact-link');
+// function to change the color on mouse over
+function changeColor(){
+    button
+}
+changeColor(red);
