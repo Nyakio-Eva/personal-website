@@ -1,13 +1,12 @@
-// Add a simple interactive feature
-document.addEventListener('DOMContentLoaded', function (){
-    const welcomeSection = document.getElementById('home')
-    // Change text color on mouseover
-    welcomeSection.addEventListener('mouseover',function (){
-        this.style.color = getRandomColor();
+// function to change the color on mouseover
+function changeColorToGreen(linkId){
+    link = document.getElementById(linkId);
+    link.addEventListener('mouseover', function(){
+        link.style.color = 'green';
     });
-    // change color back on mouseout
-    welcomeSection.addEventListener('mouseout',function(){
-        this.style.color = '';
-    });
-    
-})
+
+}
+changeColorToGreen('home-link');
+changeColorToGreen('about-link');
+changeColorToGreen('interests-link');
+changeColorToGreen('contact-link');
