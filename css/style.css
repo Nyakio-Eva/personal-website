@@ -71,10 +71,7 @@ h2{
 @media only screen and (max-width: 600px){
     body {
         font-size: 14px;
-        justify-content: center;
         display: flex;
-        align-items: center;
-        text-align: center;
 
     }
 }
